@@ -35,6 +35,6 @@ jobs:
       run: |
         echo "Inside the Build and push Docker image step"
         docker --version # print the version for logging
-        docker build -t sudkul/sample-express-app .
-        docker tag sudkul/sample-express-app sudkul/sample-express-app:1.0.0
-        docker push sudkul/sample-express-app:1.0.0
+        docker build -t lcd1502/sample-express-app .
+        docker tag lcd1502/sample-express-app lcd1502/sample-express-app:1.0.0
+        docker push lcd1502/sample-express-app:1.0.0
